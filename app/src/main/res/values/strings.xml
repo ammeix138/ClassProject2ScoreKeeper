@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Class Project 2 Score Keeper</string>
+
+    <!--Reset button to restart team score and flag count-->
+    <string name="reset_button">Reset</string>
+
+    <!--Flag penalties text for Bearcats-->
+    <string name="flag_penalties">Flag Penalties:</string>
+
+    <!--Displays "Name" of the Football Team Bearcats-->
+    <string name="football_team_bearcats1">Football Team: Bearcats</string>
+
+    <!--Displays actual score for Team Bearcats-->
+    <string name="_0_score">0</string>
+
+    <!--Displays text for "Flag Penalties" on Team Bearcats-->
+    <string name="flag_penalties_Bearcats">Flag Penalties:</string>
+
+    <!--Displays number of flag penalties for Team Bearcats-->
+    <string name="_0_flags_bearcats">0</string>
+
+    <!--Displays text for "Touchdown" button for Team Bearcats-->
+    <string name="touchdown_bearcats">Touchdown</string>
+
+    <!--Displays text for "Extra Point" button for Team Bearcats-->
+    <string name="extra_point_bearcats">Extra Point</string>
+
+    <!--Displays text for "Field Goal" button on Team Bearcats-->
+    <string name="field_goal_bearcats">Field Goal</string>
+
+    <!--Displays text for "Safety" button for Team Bearcats-->
+    <string name="safety_bearcats">Safety</string>
+
+    <!--Displays text for "Flag" button for Team Bearcats-->
+    <string name="flag_bearcats">Flag</string>
+
+    <!--Displays name of the football, "Football Team: Mustangs"-->
+    <string name="football_team_mustangs">Football Team: Mustangs</string>
+
+    <!--Displays actual score for Team Mustangs-->
+    <string name="_0_mustangs">0</string>
+
+    <!--Displays text for "Flag Penalties" for Team Mustangs-->
+    <string name="flag_penalties_mustangs">Flag Penalties:</string>
+
+    <!--Displays actual number of flag penalties received for Team Mustangs-->
+    <string name="_0_penalties_mustangs">0</string>
+
+    <!--Displays text for "Touchdown" button for Team Mustangs-->
+    <string name="touchdown_mustangs">Touchdown</string>
+
+    <!--Displays text for "Extra Point" button for Team Mustangs-->
+    <string name="extra_point_mustangs">Extra Point</string>
+
+    <!--Displays text for "Field Goal" button for Team Mustangs-->
+    <string name="field_goal_mustangs">Field Goal</string>
+
+    <!--Displays text for "Safety" button for team Mustangs-->
+    <string name="safety_mustangs">Safety</string>
+
+    <!--Displays text for "Flag" button for Team Mustangs-->
+    <string name="flag_mustangs">Flag</string>
+
+    <!--Displays text for "Reset" button-->
+    <string name="reset">Reset</string>
+
+    <!--Display football name, "Football Team: Bearcats" in landscape mode.-->
+    <string name="football_team_bearcats_landscape">Football Team: Bearcats</string>
+
+    <!--Displays Team Bearcats score in landscape mode.-->
+    <string name="_0_landscape">0</string>
+
+    <!--Displays text for flag penalties for Team Bearcats in landscape mode-->
+    <string name="flag_penalties_landscape1">Flag Penalties</string>
+
+    <!--Displays number of flag penalties for Team Bearcats in landscape mode-->
+    <string name="_0_flag_landscape">0</string>
+
+    <!--Displays text for "Touchdown" button for Team Bearcats in landscape mode-->
+    <string name="touchdown_landscape">Touchdown</string>
+
+    <!--Displays text for "Extra Point" button for Team Bearcats in landscape mode-->
+    <string name="extra_point_landscape">Extra Point</string>
+
+    <!--Displays text for "Field Goal" button Team Bearcats in landscape mode-->
+    <string name="field_goal_landscape">Field Goal</string>
+
+    <!--Displays text for "Safety" button for Team Bearcats in landscape mode-->
+    <string name="safety_landscape">Safety</string>
+
+    <!--Displays text for "Flag" button for Team Bearcats in landscape mode-->
+    <string name="flag_landscape">Flag</string>
+
+    <!--Displays name for "Football Team: Mustangs" while in landscape mode-->
+    <string name="football_team_mustangs_landscape">Football Team: Mustangs</string>
+
+    <!--Displays score for Team Mustangs in landscape mode-->
+    <string name="_0_mustang_score_landscape">0</string>
+
+    <!--Displays text for "Flag Penalties" for Team Mustangs in landscape mode-->
+    <string name="flag_penalties_mustangs_landscape">Flag Penalties:</string>
+
+    <!--Displays actual number of flag penalties for Team Mustangs in landscape mode-->
+    <string name="display_penalties_mustang_landscape">0</string>
+
+    <!--Displays text for "Touchdown" button for Team Mustangs in landscape mode-->
+    <string name="touchdown_mustangs_landscape">Touchdown</string>
+
+    <!--Displays text for "Extra Point" button for Team Mustangs in landscape mode-->
+    <string name="extra_point_mustangs_landscape">Extra Point</string>
+
+    <!--Displays text for "Field Goal" button for Team Mustangs in landscape mode-->
+    <string name="field_goal_mustangs_landscape">Field Goal</string>
+
+    <!--Displays text for "Safety" button for Team Mustangs in landscape mode-->
+    <string name="safety_mustangs_landscape">Safety</string>
+
+    <!--Displays text for "Flag" button for Team Mustangs in landscape mode-->
+    <string name="flag_mustangs_landscape">Flag</string>
+
+    <!--Displays text for "Reset" button for Team Mustangs in landscape mode-->
+    <string name="reset_landscape">Reset</string>
+
+
+</resources>

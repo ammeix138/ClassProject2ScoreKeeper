@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:fadeScrollbars="true"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.classproject2scorekeeper.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            tools:context="com.example.android.courtcounter.MainActivity">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#E0E0E0"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/football_team_bearcats_landscape"
+                    android:textColor="#616161"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/team_bearcats_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/_0_landscape"
+                    android:textColor="#0091EA"
+                    android:textSize="56sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:background="#E0E0E0"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/flag_penalties_landscape1"
+                    android:textColor="#616161"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/flag_penalties_bearcats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/_0_flag_landscape"
+                    android:textColor="#0091EA"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addSixForBearcats"
+                    android:text="@string/touchdown_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addOneForBearcats"
+                    android:text="@string/extra_point_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addThreeForBearcats"
+                    android:text="@string/field_goal_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addTwoForBearcats"
+                    android:text="@string/safety_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addOnePenaltyBearcats"
+                    android:text="@string/flag_landscape"
+                    android:textColor="#76FF03" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#E0E0E0"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/football_team_mustangs_landscape"
+                    android:textColor="#616161"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/team_mustang_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="4dp"
+                    android:text="@string/_0_mustang_score_landscape"
+                    android:textColor="#0091EA"
+                    android:textSize="56sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:background="#E0E0E0"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/flag_penalties_mustangs_landscape"
+                    android:textColor="#616161"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/flag_penalties_mustangs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/display_penalties_mustang_landscape"
+                    android:textColor="#0091EA"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addSixForMustangs"
+                    android:text="@string/touchdown_mustangs_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addOneForMustangs"
+                    android:text="@string/extra_point_mustangs_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addThreeForMustangs"
+                    android:text="@string/field_goal_mustangs_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addTwoForMustangs"
+                    android:text="@string/safety_mustangs_landscape"
+                    android:textColor="#76FF03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#1565C0"
+                    android:onClick="addOnePenaltyMustangs"
+                    android:text="@string/flag_mustangs_landscape"
+                    android:textColor="#76FF03" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#9E9E9E"
+            android:onClick="resetAll"
+            android:text="@string/reset_landscape" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="120dp"
+            android:background="#9E9E9E" />
+
+    </RelativeLayout>
+</ScrollView>
+
+

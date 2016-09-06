@@ -1,0 +1,22 @@
+<resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+            <!-- Primary theme color of the app (sets background color of app bar) -->
+            <item name="colorPrimary">@color/colorBackground</item>
+
+            <!-- Background color of buttons in the app -->
+            <item name="colorButtonNormal">#CFD8DC</item>
+
+            <!--Primary Text Color-->
+            <item name="android:textColorPrimary">@color/colorText</item>
+
+            <!--Text color accents-->
+            <item name="colorAccent">@color/colorText</item>
+
+            <!--Background color used on Reset Button-->
+            <item name="colorPrimaryDark">@color/button_material_light</item>
+        </style>
+
+</resources>
